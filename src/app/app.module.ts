@@ -8,6 +8,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { YoutubeComponent } from './youtube/youtube.component';
 import { LivestreamsComponent } from './livestreams/livestreams.component';
+import { BannerComponent } from './banner/banner.component';
+import { AccentBarComponent } from './accent-bar/accent-bar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { LivestreamsComponent } from './livestreams/livestreams.component';
     HeaderComponent,
     FooterComponent,
     YoutubeComponent,
-    LivestreamsComponent
+    LivestreamsComponent,
+    BannerComponent,
+    AccentBarComponent
   ],
   imports: [
     BrowserModule,
