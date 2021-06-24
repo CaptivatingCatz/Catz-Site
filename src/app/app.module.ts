@@ -10,6 +10,11 @@ import { YoutubeComponent } from './youtube/youtube.component';
 import { LivestreamsComponent } from './livestreams/livestreams.component';
 import { BannerComponent } from './banner/banner.component';
 import { AccentBarComponent } from './accent-bar/accent-bar.component';
+import { AboutComponent } from './about/about.component';
+import { EmailListComponent } from './email-list/email-list.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -20,11 +25,17 @@ import { AccentBarComponent } from './accent-bar/accent-bar.component';
     YoutubeComponent,
     LivestreamsComponent,
     BannerComponent,
-    AccentBarComponent
+    AccentBarComponent,
+    AboutComponent,
+    EmailListComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

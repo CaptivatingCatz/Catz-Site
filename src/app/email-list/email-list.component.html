@@ -1,0 +1,36 @@
+<section class="hero is-warning">
+  <div class="hero-body">
+    <p class="title">
+      Join the Email List
+    </p>
+    <div class="columns is-mobile">
+      <div class="column is-half"></div>
+      <div class="column is-half">
+        <!-- form goes here -->
+
+        <form (ngSubmit)="submitForm()" #contactForm="ngForm">
+          <div class="field">
+            <label class="label"> Name </label>
+            <input [(ngModel)]="name" name="name" class="input is-medium" type="text" placeholder="Name" >
+          </div>
+
+          <div class="field">
+          <label class="label"> Email</label>
+          <div class="control has-icons-left">
+            <input [(ngModel)]="email" name="email" class="input is-medium" type="email" placeholder="Email"  #emailInput="ngModel" required  >
+            <span class="icon is-medium is-left">
+              <fa-icon [icon]="faEnvelope"></fa-icon>
+            </span>
+          <div class="help is-error" *ngIf="emailInput.invalid && emailInput.touched">
+          Your Email is required and needs to be in the format of a valid email.
+          </div>
+          </div>
+          </div>
+            <!-- submit button -->
+           <button type="submit" class="button is-large is-success" [disabled]="contactForm.invalid"> Subscribe! </button>
+           </form>
+      </div>
+    </div>
+
+  </div>
+</section>
