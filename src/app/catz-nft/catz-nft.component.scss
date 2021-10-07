@@ -1,0 +1,16 @@
+#CatzBackground {
+  background-image: url(../../assets/images/SolanaBackground.png);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+#userControlPanel {
+  background-image: url(../../assets/images/roadMapBackgroundVersionRed.png);
+  background-repeat: no-repeat;
+  max-height: 90%;
+  width: 60%;
+  display: flex;
+  background-size: contain;
+  margin-top: 6.5%;
+  justify-content: center;
+}
