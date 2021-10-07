@@ -16,6 +16,13 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from "@angular/common/http";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CatzNFTComponent } from './catz-nft/catz-nft.component';
+import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { MintComponent } from './mint/mint.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +35,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BannerComponent,
     AccentBarComponent,
     AboutComponent,
-    EmailListComponent
+    EmailListComponent,
+    CatzNFTComponent,
+    HomeComponent,
+    LoginComponent,
+    RegisterComponent,
+    PortfolioComponent,
+    MintComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

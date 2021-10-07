@@ -1,0 +1,35 @@
+//Content Component Css page
+
+//Global css Settings
+a:hover {
+  text-decoration: underline;
+}
+a:focus {
+  text-decoration-color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+
+#promoVideo {
+}
+#attention {
+  font-size: xx-large;
+}
+#projectInfoLink {
+  font-size: x-large;
+}
+
+//Gallery of Links Section
+#galleryOfLinks {
+  font-size: xx-large;
+  margin-left: 45px;
+}
+#galleryOfLinksMember {
+  font-size: x-large;
+  margin-left: 45px;
+}
+#ProjectInfoLinkMember {
+  font-size: x-large;
+}
