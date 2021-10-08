@@ -23,6 +23,8 @@ import { RegisterComponent } from './register/register.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { MintComponent } from './mint/mint.component';
 import { ContactComponent } from './contact/contact.component';
+import { AssetObservatoryComponent } from './asset-observatory/asset-observatory.component';
+
 
 @NgModule({
   declarations: [
@@ -42,7 +44,8 @@ import { ContactComponent } from './contact/contact.component';
     RegisterComponent,
     PortfolioComponent,
     MintComponent,
-    ContactComponent
+    ContactComponent,
+    AssetObservatoryComponent
   ],
   imports: [
     BrowserModule,
