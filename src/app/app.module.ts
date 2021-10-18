@@ -24,6 +24,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { MintComponent } from './mint/mint.component';
 import { ContactComponent } from './contact/contact.component';
 import { AssetObservatoryComponent } from './asset-observatory/asset-observatory.component';
+import { ChaoticnightstudiosComponent } from './chaoticnightstudios/chaoticnightstudios.component';
 
 
 @NgModule({
@@ -45,7 +46,8 @@ import { AssetObservatoryComponent } from './asset-observatory/asset-observatory
     PortfolioComponent,
     MintComponent,
     ContactComponent,
-    AssetObservatoryComponent
+    AssetObservatoryComponent,
+    ChaoticnightstudiosComponent
   ],
   imports: [
     BrowserModule,
