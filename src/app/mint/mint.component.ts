@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+function hello() {
+  alert('Hello and Welcome!!!');
+}
 @Component({
   selector: 'app-mint',
   templateUrl: './mint.component.html',
@@ -10,6 +13,7 @@ export class MintComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    hello();
   }
 
 }
