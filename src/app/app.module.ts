@@ -25,6 +25,9 @@ import { MintComponent } from './mint/mint.component';
 import { ContactComponent } from './contact/contact.component';
 import { AssetObservatoryComponent } from './asset-observatory/asset-observatory.component';
 import { ChaoticnightstudiosComponent } from './chaoticnightstudios/chaoticnightstudios.component';
+import { GamesComponent } from './games/games.component';
+import { HighlightsComponent } from './highlights/highlights.component';
+import { UpdatesComponent } from './updates/updates.component';
 
 
 @NgModule({
@@ -47,7 +50,10 @@ import { ChaoticnightstudiosComponent } from './chaoticnightstudios/chaoticnight
     MintComponent,
     ContactComponent,
     AssetObservatoryComponent,
-    ChaoticnightstudiosComponent
+    ChaoticnightstudiosComponent,
+    GamesComponent,
+    HighlightsComponent,
+    UpdatesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,56 @@
 .brand {
   min-height: 50px;
 }
+.navbar {
+  background-color: transparent;
+}
+
+.mintBtn {
+  background-color: #4caf50; /* Green */
+  width: 100px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  border-radius: 24px;
+  text-shadow: 1px 1px 2px black;
+  font-size: 18px;
+  background: rgb(220, 31, 255);
+  background: linear-gradient(
+    27deg,
+    rgba(220, 31, 255, 1) 14%,
+    rgba(3, 225, 255, 1) 54%,
+    rgba(0, 255, 163, 1) 100%
+  );
+}
+.mintBtn:hover {
+  background: linear-gradient(
+    90deg,
+    #00c0ff 0%,
+    #ffcf00 49%,
+    #fc4f4f 80%,
+    #00c0ff 100%
+  );
+  animation: slidebg 5s linear infinite;
+}
+.space {
+  width: 20px;
+}
+
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+}
+.discordBtn {
+  background-color: #5865f2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90px;
+  min-width: 105px;
+  background-image: url(../../assets/images/discord.svg);
+}
+.discordBtn:hover {
+  background-color: #57f287;
+}
