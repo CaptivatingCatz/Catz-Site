@@ -28,6 +28,8 @@ import { ChaoticnightstudiosComponent } from './chaoticnightstudios/chaoticnight
 import { GamesComponent } from './games/games.component';
 import { HighlightsComponent } from './highlights/highlights.component';
 import { UpdatesComponent } from './updates/updates.component';
+import { SocialPanelComponent } from './social-panel/social-panel.component';
+import { ScheduleComponent } from './schedule/schedule.component';
 
 
 @NgModule({
@@ -53,7 +55,9 @@ import { UpdatesComponent } from './updates/updates.component';
     ChaoticnightstudiosComponent,
     GamesComponent,
     HighlightsComponent,
-    UpdatesComponent
+    UpdatesComponent,
+    SocialPanelComponent,
+    ScheduleComponent
   ],
   imports: [
     BrowserModule,
