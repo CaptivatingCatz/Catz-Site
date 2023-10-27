@@ -1,4 +1,3 @@
-import { hasLifecycleHook } from '@angular/compiler/src/lifecycle_reflector';
 import { Component, OnInit } from '@angular/core';
 
 
