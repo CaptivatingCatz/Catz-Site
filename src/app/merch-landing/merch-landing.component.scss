@@ -10,7 +10,6 @@
       0 -2px 0 var(--highlight);
   }
 
-
   :root {
     --hue: 320;
     --bg: oklch(35% .3 var(--hue));
@@ -45,6 +44,10 @@
     line-height: .75;
 
   }
+  h2 {
+    color: white;
+    font-size: 3vi;
+  }
 
   small {
     max-inline-size: 30ch;
@@ -53,7 +56,9 @@
 
 .hero {
   background-color: black;
-  padding: 150px;
+
+  padding-left: 300px;
+  padding-top: 150px;
 }
 
 
@@ -83,7 +88,7 @@ ul {
 		display: flex;
 		width: 10rem;
 		height: 10rem;
-		margin: 0.25rem;
+		margin: 1rem;
 		flex-flow: column;
 		border-radius: 0.2rem;
 		padding: 1rem;
