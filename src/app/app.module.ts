@@ -30,6 +30,7 @@ import { HighlightsComponent } from './highlights/highlights.component';
 import { UpdatesComponent } from './updates/updates.component';
 import { SocialPanelComponent } from './social-panel/social-panel.component';
 import { ScheduleComponent } from './schedule/schedule.component';
+import { MerchLandingComponent } from './merch-landing/merch-landing.component';
 
 
 @NgModule({
@@ -57,7 +58,8 @@ import { ScheduleComponent } from './schedule/schedule.component';
     HighlightsComponent,
     UpdatesComponent,
     SocialPanelComponent,
-    ScheduleComponent
+    ScheduleComponent,
+    MerchLandingComponent,
   ],
   imports: [
     BrowserModule,
