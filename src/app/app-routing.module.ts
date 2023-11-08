@@ -10,6 +10,7 @@ import { MintComponent } from './mint';
 import { PortfolioComponent } from './portfolio';
 import { RegisterComponent } from './register';
 import { ChaoticnightstudiosComponent } from './chaoticnightstudios/chaoticnightstudios.component';
+import { RecentContentComponent } from './recent-content/recent-content.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'mint', component: MintComponent },
   { path: 'catz-nft', component: CatzNFTComponent },
   { path: 'chaoticnightstudios', component: ChaoticnightstudiosComponent },
+  { path: 'recent-shorts', component:RecentContentComponent},
 
   // otherwise redirect to home
   { path: '**', redirectTo: '' }

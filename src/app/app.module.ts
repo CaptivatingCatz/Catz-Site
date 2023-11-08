@@ -31,6 +31,7 @@ import { UpdatesComponent } from './updates/updates.component';
 import { SocialPanelComponent } from './social-panel/social-panel.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { MerchLandingComponent } from './merch-landing/merch-landing.component';
+import { RecentContentComponent } from './recent-content/recent-content.component';
 
 
 @NgModule({
@@ -60,6 +61,7 @@ import { MerchLandingComponent } from './merch-landing/merch-landing.component';
     SocialPanelComponent,
     ScheduleComponent,
     MerchLandingComponent,
+    RecentContentComponent,
   ],
   imports: [
     BrowserModule,
