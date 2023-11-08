@@ -203,10 +203,10 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/material@~16.2.10":
-  version "16.2.10"
-  resolved "https://registry.npmjs.org/@angular/material/-/material-16.2.10.tgz"
-  integrity sha512-0XhMwbcxpEESL11mVO8ycwxa+Jlh+8egOSRleD30zFUesqBA5EhtRpH8cqtna03f/xxtRq00Q315igMIMNiOSg==
+"@angular/material@~16.2.11":
+  version "16.2.11"
+  resolved "https://registry.npmjs.org/@angular/material/-/material-16.2.11.tgz"
+  integrity sha512-hrkRD9/38++nIyo3k/KQpxsIaWm+FOJVmoJa83qvwZZt+fHKfT7xaNvRPZ+L2oqFaAvH5ivnL1u1nDuDyWz/0w==
   dependencies:
     "@material/animation" "15.0.0-canary.bc9ae6c9c.0"
     "@material/auto-init" "15.0.0-canary.bc9ae6c9c.0"
